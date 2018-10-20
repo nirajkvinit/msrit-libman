@@ -50,9 +50,7 @@ router.post(
       publishers: req.body.publishers,
       summary: req.body.summary,
       isbn: req.body.isbn,
-      edition: req.body.edition,
-      stock: req.body.stock,
-      publishdate: req.body.publishdate
+      edition: req.body.edition
     });
 
     newBook.save().then(book => res.json(book));
