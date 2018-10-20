@@ -15,7 +15,8 @@ A Demo Library management Project based on MERN Stack for MSRCOSMOS
 ## Assumptions
 
 - Port 8080 and 3000 should be free
-- Only one admin user
+- Not maintaining Authors and Publishers records
+- Catalog contains only books
 - If you register an account with email address `nirajkvinit@gmail.com` that account will become super admin
 - Later in the admin dashboard, the super admin will have the Capability to assign admin capabilities to other users
 - Normal Registered User will only be able to browse the catalog. Late, more functionality can be added where they can checkout books and other catalog items

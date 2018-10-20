@@ -5,12 +5,6 @@ import { connect } from "react-redux";
 class CreateBook extends Component {
   render() {
     const { user } = this.props.auth;
-    // booksForm
-    // if(user.isAdmin) {
-
-    // } else {
-
-    // }
     return (
       <div className="container">
         <h3>Books Creation form coming up</h3>
